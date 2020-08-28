@@ -1,12 +1,23 @@
 {
-  "name": "SecondNativeApp",
-  "displayName": "SecondNativeApp",
   "expo": {
     "name": "SecondNativeApp",
     "slug": "SecondNativeApp",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.chandrasekhar154.SecondNativeApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.chandrasekhar154.SecondNativeApp"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }

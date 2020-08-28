@@ -5,7 +5,7 @@ import { createAppContainer } from 'react-navigation'
 import { createDrawerNavigator } from 'react-navigation-drawer'
 import { ProfileScreen, ListScreen, ActivityScreen, MessageScreen } from './screens'
 import { Feather } from '@expo/vector-icons'
-import Sidebar from './components/Sidebar'
+import { Sidebar } from './components/Sidebar'
 
 const DrawerNavigator = createDrawerNavigator(
   {

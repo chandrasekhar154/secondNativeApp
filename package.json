@@ -1,5 +1,4 @@
 {
-  "main": "index.js",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -8,7 +7,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-navigation/native": "^5.7.3",
     "expo": "~38.0.9",
     "expo-splash-screen": "^0.5.0",
     "expo-status-bar": "^1.0.0",
@@ -21,6 +19,7 @@
     "react-native-screens": "~2.9.0",
     "react-native-unimodules": "~0.10.1",
     "react-native-web": "~0.11.7",
+    "@react-navigation/native": "^5.7.3",
     "react-navigation": "^4.4.0",
     "react-navigation-drawer": "^2.5.0"
   },
@@ -33,5 +32,7 @@
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "private": true,
+  "name": "SecondNativeApp",
+  "version": "1.0.0"
 }
